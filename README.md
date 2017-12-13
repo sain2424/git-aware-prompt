@@ -105,6 +105,15 @@ repo to `~/.bash/git-aware-prompt`:
 cd ~/.bash/git-aware-prompt
 git pull
 ```
+## My prefered settings
+
+```bash
+export PS1="\h:\W \u\[$txtcyn\]\$git_branch\[$txtred\]\[$txtrst\]\$ "
+```
+
+```bash
+export PS1="\h:\W \u\[$txtcyn\]\$git_branch\[$txtred\]\[$txtrst\]"'\$ '
+```
 
 
 ## Usage Tips
@@ -117,3 +126,4 @@ page. Or if you have tips of your own, feel free to add them :)
 ## License
 
 [CC0 1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/)
+
